@@ -22,7 +22,9 @@ class _HomePageState extends State<HomePage> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Medicine App'),
+          title: Center(
+            child: Text('Medicine App'),
+           ),
           backgroundColor: Colors.lightBlue,
           toolbarHeight: 50.0,
         ),
